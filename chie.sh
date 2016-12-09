@@ -6,7 +6,7 @@ if `g++ -std=c++11 -O2 -Wall ${1}`; then
     P=`pwd`
     DIR=`basename ${P}`
     str="2017-yo-t${DIR}-in${i}.txt"
-    ./a < $str > "out-${DIR}-${i}.txt"
+    ./a.* < $str > "out-${DIR}-${i}.txt"
     echo "SUCCESS out-${DIR}-${i}.txt"
   done
 else
