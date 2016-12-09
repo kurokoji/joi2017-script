@@ -1,4 +1,4 @@
-`g++ -std=c++11 -O2 -Wall ${1}`; then
+if `g++ -std=c++11 -O2 -Wall ${1}`; then
   echo "SUCCESS COMPILE"
   for i in `seq 1 5`
   do
