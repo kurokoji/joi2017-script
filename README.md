@@ -6,4 +6,4 @@ joi2017
 `./chie.sh *.cpp`  
 でおわり  
 
-管理者権限必要ぽかったら`chmod +x chie.sh`
+実行権限必要ぽかったら`chmod +x chie.sh`
